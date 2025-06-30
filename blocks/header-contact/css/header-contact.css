@@ -1,0 +1,27 @@
+.header-contact {
+    color: var(--text-color-menu, #656565);
+    font-family: var(--text-family-menu, sans-serif);
+    font-size: var(--text-size-menu, 14px);
+    font-weight: var(--text-weight-semibold, 400);
+
+    text-align: right;
+}
+.header-contact__link {
+    display: inline-block;
+    padding: 14px 10px;
+
+    color: var(--text-color-menu, #E99C43);
+
+    text-decoration: none;
+
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+
+    transition: background 0.3s;
+
+    cursor: pointer;
+}
+
+.header-contact__link:hover  {
+    color: var(--text-color-menu_hover, #EDAA45);
+}

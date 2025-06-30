@@ -1,0 +1,50 @@
+.back-to-top {
+    position: fixed;
+    display: block;
+    width: 80px;
+    height: 80px;
+    right: 50px;
+    bottom: 50px;
+
+
+    transition: opacity 0.5s ease;
+    opacity: 1;
+
+    cursor: pointer;
+
+    z-index: 100;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.back-to-top__icon path {
+    fill: var(--orange, #E99C43);
+}
+
+.back-to-top:hover .back-to-top__icon path {
+    fill: var(--orange-light, #EDAA45);
+}
+
+.back-to-top__icon {
+    object-fit: cover;
+}
+
+@media (max-width: 800px) {
+    .back-to-top {
+        width: 65px;
+        height: 65px;
+        right: 35px;
+        bottom: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .back-to-top {
+        width: 50px;
+        height: 50px;
+        right: 20px;
+        bottom: 20px;
+    }
+}

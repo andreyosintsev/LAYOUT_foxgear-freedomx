@@ -13,6 +13,12 @@
 /*
     Основная палитра
 */
+
+    --orange:                   #E99C43; /* accent color */
+    --orange-light:             #EDAA45; /* accent color hover */
+
+    --off-white:                #FCF8ED; /* neutral and main menu background*/
+
     --black:                    #000000; /* main text */
     --gray-deep-dark:           #171717; /* for cards (faster) */
     --gray-darker:              #252525; /* section title page*/
@@ -22,14 +28,11 @@
     --gray-light:               #D2D7D7; /* description */
     --gray-neutral:             #DCE2E1; /* p declaration */
     --gray-lighter:             #E8E8E1; /* review background */
-    --off-white:                #F5F5F5; /* menu mobile background, wrapper gray */
     --white:                    #FFFFFF; /* background */
 
     --green-light:              #E0F3EF; /* button selected background*/
     --green:                    #00DFA9; /* button selected */
     --beige:                    #F6F4F1; /* button selected background*/
-    --orange-light:             #FFA366; /* text link hover*/
-    --orange:                   #F76500; /* text link */
     --violet:                   #7671ff; /* text link dark */
 
     --violet:                   #7671ff; /* title */
@@ -51,11 +54,12 @@
 
     --text-color-main:          var(--black);
     --text-color-inverted:      var(--white);
-    --text-color-menu:          var(--gray);
+    --text-color-menu:          var(--orange);
+    --text-color-menu_hover:    var(--orange-light);
     --text-color-title-table:   var(--gray-darker);
 
-    --text-family-main:         Montserrat, arial, sans-serif;
-    --text-family-menu:         Montserrat, arial, sans-serif;
+    --text-family-main:         'Manrope', arial, sans-serif;
+    --text-family-menu:         'Manrope', arial, sans-serif;
     --text-family-title:        'Roboto', arial, sans-serif;
 
     --text-size-section:        32px;
@@ -96,11 +100,13 @@
 /*
     Фоны
 */
+    --background-color-menu: var(--off-white);
+
 
     --background-color-main: var(--white);
     --background-color-gray: var(--off-white);
     --background-color-black: var(--black);
-    --background-color-menu: var(--white);
+
     --background-color-inverted: var(--black);
     --background-color-card: var(--gray-deep-dark);
     --background-color-table: var(--off-white);
