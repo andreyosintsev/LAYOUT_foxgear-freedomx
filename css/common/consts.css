@@ -6,12 +6,9 @@
     Размеры экрана
 */
 
-    --max-content-width:        1920px;
+    --wrapper-width:            1200px;
     --header-width:             1600px;
-    --wrapper-width:            1440px;
-    --content-width:            1230px;
-    --tech-table-width:         1200px;
-
+    --footer-width:             1600px;
 
 /*
     Основная палитра
@@ -32,16 +29,16 @@
     --green:                    #00DFA9; /* button selected */
     --beige:                    #F6F4F1; /* button selected background*/
     --orange-light:             #FFA366; /* text link hover*/
-    --orange:                   #F76500; /* text link */ 
-    --violet:                   #7671ff; /* text link dark */ 
+    --orange:                   #F76500; /* text link */
+    --violet:                   #7671ff; /* text link dark */
 
-    --violet:                   #7671ff; /* title */ 
+    --violet:                   #7671ff; /* title */
     --violet-light:             #a29ff3;
 
     /* Не используются */
 
     --black-dark:               #2C2C2C; /* block panel background and border */
-    
+
     --gray-dark:                #747474; /* gray button */
     --gray-light:               #EFEFEF; /* button outlined hover */
     --red:                      #FF6666; /* form error */
@@ -75,7 +72,7 @@
     --text-size-legend_mobile:  16px;
     --text-size-footer_mobile:  13px;
     --text-size-single_mobile:  15px;
- 
+
     --text-weight-main:         300;
     --text-weight-semibold:     400;
     --text-weight-bold:         600;
@@ -86,14 +83,14 @@
     --text-line-height-footer:  23px;
     --text-line-height-specs:   22px;
     --text-line-height-main:    18px;
-   
+
 
     --text-line-height-section_mobile: 28px;
     --text-line-height-footer_mobile:  20px;
 
     /* Для тёмного фона */
 
-    --special-title: var(--violet); 
+    --special-title: var(--violet);
 
 
 /*

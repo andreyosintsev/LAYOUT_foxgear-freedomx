@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+    max-width: var(--wrapper-width, 1200px);
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 768px;
+        margin: 0 clamp(0px, 50.39vw - 322.5px, 64px);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        max-width: 640px;
+
+        margin: 0;
+    }
+}
