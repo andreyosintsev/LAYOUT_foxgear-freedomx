@@ -1,42 +1,47 @@
-/*Montserrat Light*/
+/*Manrope Regular*/
 @font-face {
-    font-family: 'Montserrat';
-    font-weight: 300;
-    src: url("../../fonts/Montserrat-Light.otf") format("opentype");
-    font-display: swap;
-}
-/*Montserrat Medium*/
-@font-face {
-    font-family: 'Montserrat';
+    font-family: 'Manrope';
     font-weight: 400;
-    src: url("../../fonts/Montserrat-Medium.otf") format("opentype");
+    src: url("../../fonts/Manrope-Regular.ttf") format("truetype");
     font-display: swap;
 }
-/*Montserrat SemiBold*/
+
+/*Manrope Bold*/
 @font-face {
-    font-family: 'Montserrat';
-    font-weight: 600;
-    src: url("../../fonts/Montserrat-SemiBold.otf") format("opentype");
-    font-display: swap;
-}
-/*Montserrat ExtraBold*/
-@font-face {
-    font-family: 'Montserrat';
-    font-weight: 800;
-    src: url("../../fonts/Montserrat-ExtraBold.otf") format("opentype");
-    font-display: swap;
-}
-/*Roboto Medium*/
-@font-face {
-    font-family: 'Roboto';
-    font-weight: 500;
-    src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
-    font-display: swap;
-}
-/*Roboto Condensed Bold*/
-@font-face {
-    font-family: 'Roboto Condensed';
+    font-family: 'Manrope';
     font-weight: 700;
-    src: url("../../fonts/RobotoCondensed-Bold.ttf") format("truetype");
+    src: url("../../fonts/Manrope-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+/*Cambria Bold*/
+@font-face {
+    font-family: 'Manrope';
+    font-weight: 700;
+    src: url("../../fonts/Cambria-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+/*Fira Sans Bold*/
+@font-face {
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    src: url("../../fonts/FiraSans-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+/*Proxima Nova Bold*/
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    src: url("../../fonts/Proximanova-Bold.otf") format("opentype");
+    font-display: swap;
+}
+
+/*Proxima Nova BLack*/
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 900;
+    src: url("../../fonts/Proximanova-Black.otf") format("opentype");
     font-display: swap;
 }
