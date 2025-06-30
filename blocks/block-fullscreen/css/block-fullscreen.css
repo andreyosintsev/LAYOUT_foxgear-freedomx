@@ -1,0 +1,10 @@
+.block-fullscreen {
+    width: 100%;
+    height: 100dvh;
+    height: calc(var(--vh, 1vh) * 100);
+
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+
+    background-color: black;
+}
