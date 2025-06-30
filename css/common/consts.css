@@ -1,0 +1,183 @@
+@import url("./fonts.css");
+
+:root {
+
+/*
+    Размеры экрана
+*/
+
+    --max-content-width:        1920px;
+    --header-width:             1600px;
+    --wrapper-width:            1440px;
+    --content-width:            1230px;
+    --tech-table-width:         1200px;
+
+
+/*
+    Основная палитра
+*/
+    --black:                    #000000; /* main text */
+    --gray-deep-dark:           #171717; /* for cards (faster) */
+    --gray-darker:              #252525; /* section title page*/
+    --gray-dark:                #3C3C3C; /* back to top */
+    --gray:                     #656565; /* description */
+    --gray-medium:              #B7B7B7; /* p declaration */
+    --gray-light:               #D2D7D7; /* description */
+    --gray-neutral:             #DCE2E1; /* p declaration */
+    --gray-lighter:             #E8E8E1; /* review background */
+    --off-white:                #F5F5F5; /* menu mobile background, wrapper gray */
+    --white:                    #FFFFFF; /* background */
+
+    --green-light:              #E0F3EF; /* button selected background*/
+    --green:                    #00DFA9; /* button selected */
+    --beige:                    #F6F4F1; /* button selected background*/
+    --orange-light:             #FFA366; /* text link hover*/
+    --orange:                   #F76500; /* text link */ 
+    --violet:                   #7671ff; /* text link dark */ 
+
+    --violet:                   #7671ff; /* title */ 
+    --violet-light:             #a29ff3;
+
+    /* Не используются */
+
+    --black-dark:               #2C2C2C; /* block panel background and border */
+    
+    --gray-dark:                #747474; /* gray button */
+    --gray-light:               #EFEFEF; /* button outlined hover */
+    --red:                      #FF6666; /* form error */
+
+    --blue:                     #4A90E2; /* blue button */
+
+/*
+    Шрифты
+*/
+
+    --text-color-main:          var(--black);
+    --text-color-inverted:      var(--white);
+    --text-color-menu:          var(--gray);
+    --text-color-title-table:   var(--gray-darker);
+
+    --text-family-main:         Montserrat, arial, sans-serif;
+    --text-family-menu:         Montserrat, arial, sans-serif;
+    --text-family-title:        'Roboto', arial, sans-serif;
+
+    --text-size-section:        32px;
+    --text-size-legend:         18px;
+    --text-size-page:           18px;
+    --text-size-menu:           14px;
+    --text-size-product:        16px;
+    --text-size-footer:         16px;
+    --text-size-single:         16px;
+    --text-size-main:           14px;
+    --text-size-tech-specs:     12px;
+
+    --text-size-section_mobile: 26px;
+    --text-size-legend_mobile:  16px;
+    --text-size-footer_mobile:  13px;
+    --text-size-single_mobile:  15px;
+ 
+    --text-weight-main:         300;
+    --text-weight-semibold:     400;
+    --text-weight-bold:         600;
+    --text-weight-extrabold:    700;
+
+    --text-line-height-section: 36px;
+    --text-line-height-large:   24px;
+    --text-line-height-footer:  23px;
+    --text-line-height-specs:   22px;
+    --text-line-height-main:    18px;
+   
+
+    --text-line-height-section_mobile: 28px;
+    --text-line-height-footer_mobile:  20px;
+
+    /* Для тёмного фона */
+
+    --special-title: var(--violet); 
+
+
+/*
+    Фоны
+*/
+
+    --background-color-main: var(--white);
+    --background-color-gray: var(--off-white);
+    --background-color-black: var(--black);
+    --background-color-menu: var(--white);
+    --background-color-inverted: var(--black);
+    --background-color-card: var(--gray-deep-dark);
+    --background-color-table: var(--off-white);
+
+/*
+    Рамки
+*/  --border-color-table:           var(--gray-medium);
+    --border-radius-hero-image:     10px; /* hero-single image  */
+    --border-radius-hero-slider:    14px; /* hero-slider  */
+    --border-radius-button:         5px; /* panel  */
+    --border-radius-card:           14px; /* card-product */
+    --border-radius-flex:           12px; /* card-product */
+    --border-radius-menu-mobile:    14px; /* menu-mobile  */
+    --border-radius-gallery-image:  3px; /* hero-single gallery image  */
+    --border-radius-table:          4px; /* table  */
+
+/*
+    Ссылки
+*/
+
+    --link-normal-color:            var(--orange);
+    --link-normal-color_hover:      var(--orange-light);
+    --link-normal-color_disabled:   var(--gray);
+
+    /* Для тёмного фона */
+     --link-normal-color-dark-bk:   var(--violet);
+     --link-normal-color_hover-dark-bk: var(--violet-light);
+/*
+    Кнопки
+*/
+    --button-rounded-color:                    var(--white);
+    --button-rounded-background-color:         var(--black);
+    --button-rounded-background-color_hover:   var(--black);
+    --button-rounded-border-color:             var(--black);
+
+    /* Не используются */
+
+    --button-normal-color:                    var(--white);
+    --button-normal-background-color:         var(--black);
+    --button-normal-background-color_hover:   var(--black-light);
+    --button-normal-border-color:             var(--black);
+
+    --button-outlined-color:                  var(--black);
+    --button-outlined-background-color:       var(--white);
+    --button-outlined-background-color_hover: var(--gray-light);
+    --button-outlined-border-color:           var(--black);
+
+    --button-blue-color:                      var(--white);
+    --button-blue-background-color:           var(--blue);
+    --button-blue-background-color_hover:     var(--green);
+    --button-blue-border-color:               var(--blue);
+
+    --button-gray-color:                      var(--white);
+    --button-gray-background-color:           var(--gray-dark);
+    --button-gray-background-color_hover:     var(--orange);
+    --button-gray-border-color:               var(--gray-dark);
+}
+
+body.page-dark {
+    --gray-darker: var(--white);
+
+    .card-single {
+        background-color: #101010;
+    }
+
+    .section-title {
+        color: var(--violet, #000000);
+    }
+
+    .back-to-top path {
+        fill: var(--gray-dark, #747474);
+    }
+
+    .back-to-top:hover path {
+        fill: var(--gray, #A6A6A6);
+    }
+}

@@ -1,0 +1,42 @@
+/*Montserrat Light*/
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    src: url("../../fonts/Montserrat-Light.otf") format("opentype");
+    font-display: swap;
+}
+/*Montserrat Medium*/
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    src: url("../../fonts/Montserrat-Medium.otf") format("opentype");
+    font-display: swap;
+}
+/*Montserrat SemiBold*/
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    src: url("../../fonts/Montserrat-SemiBold.otf") format("opentype");
+    font-display: swap;
+}
+/*Montserrat ExtraBold*/
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    src: url("../../fonts/Montserrat-ExtraBold.otf") format("opentype");
+    font-display: swap;
+}
+/*Roboto Medium*/
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+    font-display: swap;
+}
+/*Roboto Condensed Bold*/
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    src: url("../../fonts/RobotoCondensed-Bold.ttf") format("truetype");
+    font-display: swap;
+}

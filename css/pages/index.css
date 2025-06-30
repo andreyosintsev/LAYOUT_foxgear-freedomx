@@ -1,0 +1,86 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+}
+
+html::-webkit-scrollbar {
+    width: 8px;
+    height: 8px
+}
+
+body {
+    color: var(--text-color-main, #000000);
+    font-family: var(--text-family-main, sans-serif);
+    font-size: var(--text-size-main, 14px);
+    font-weight: var(--text-weight-main, 300);
+
+    line-height: var(--text-line-height-main, 18px);
+
+    background-color: var(--background-color-main, #FFFFFF);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.main {
+    padding-top: 72px;
+}
+
+.main__wrapper {
+    margin: 0 auto 60px;
+
+    color: var(--text-color-main, #000000);
+
+    text-align: left;
+}
+
+.flex-image-text {
+    margin-bottom: 40px;
+}
+
+.single-slider {
+    margin: 0 auto 100px;
+}
+
+.tiles-images {
+    margin: 50px -5px;
+    padding-top: 100px;
+}
+
+.comparison-images {
+    margin-bottom: 30px;
+}
+
+.section {
+    margin-top: 220px;
+}
+
+.section-title-page {
+    margin-bottom: 20px;
+}
+
+
+.tech-specs {
+    margin: 0 auto 100px;
+}
+
+.youtube-videos {
+    margin: 0 auto 100px;
+}
+
+@media (max-width: 1600px) {
+    .main {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .section {
+        margin-top: 180px;
+    }
+}
