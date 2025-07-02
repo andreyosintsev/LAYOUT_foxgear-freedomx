@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Block</title>
+    <link rel="stylesheet" href="../../css/common/normalize.css">
+    <link rel="stylesheet" href="../../css/common/consts.css">
+    <link rel="stylesheet" href="../../blocks/wrapper/css/wrapper.css">
+    <link rel="stylesheet" href="../../blocks/logo/css/logo.css">
+    <link rel="stylesheet" href="../../blocks/block-fullscreen/css/block-fullscreen.css">
+    <link rel="stylesheet" href="../../blocks/button/css/button.css">
+    <link rel="stylesheet" href="css/block-hero.css">
+</head>
+<body style="background-color: yellowgreen;">
+    <div class="block-hero">
+        <div class="block-fullscreen block-hero__fullscreen">
+            <div class="wrapper block-hero__wrapper">
+                <div class="logo block-hero__logo">
+                    <a class="logo__link" href="#" title="Клавиатуры NuPhy - главная страница">
+                        <img class="logo__image" src="../logo/images/logo.png" alt="Логотип FoxGear">
+                    </a>
+                </div>
+                <div class="block-hero__content">
+                    <div class="block-hero__product">
+                        FOXGEAR Studio Fabric
+                    </div>
+                    <div class="block-hero__motto">
+                        Кресло одно, возможности безграничны
+                    </div>
+                    <button class="button block-hero__button button_buy"
+                        type="button"
+                        data-product="кресло FoxGear STUDIO Fabric">
+                        Заказать кресло FoxGear STUDIO
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="block-hero__mobile">
+            <img class="block-hero__mobile-image" src="images/hero-mobile.webp" alt="Кресло FoxGear STUDIO Fabric">
+            <button class="button block-hero__button block-hero__button_mobile button_buy"
+                type="button"
+                data-product="кресло FoxGear STUDIO Fabric">
+                Заказать кресло FoxGear STUDIO
+            </button>
+        </div>
+    </div>
+</body>
+</html>

@@ -14,12 +14,20 @@
     Основная палитра
 */
 
+    --black:                    #000000; /* dark text */
+    --off-white:                #FCF8ED; /* neutral and main menu background*/
+    --white:                    #FFFFFF; /* light text */
+
     --orange:                   #E99C43; /* accent color */
     --orange-light:             #EDAA45; /* accent color hover */
+    --orange-lighter:           #FF7D0A; /* button background */
 
-    --off-white:                #FCF8ED; /* neutral and main menu background*/
+    --gray-neutral:             #DCE2E1; /* p declaration */
 
-    --black:                    #000000; /* main text */
+
+
+    /* Не используются */
+
     --gray-deep-dark:           #171717; /* for cards (faster) */
     --gray-darker:              #252525; /* section title page*/
     --gray-dark:                #3C3C3C; /* back to top */
@@ -28,7 +36,6 @@
     --gray-light:               #D2D7D7; /* description */
     --gray-neutral:             #DCE2E1; /* p declaration */
     --gray-lighter:             #E8E8E1; /* review background */
-    --white:                    #FFFFFF; /* background */
 
     --green-light:              #E0F3EF; /* button selected background*/
     --green:                    #00DFA9; /* button selected */
@@ -38,7 +45,7 @@
     --violet:                   #7671ff; /* title */
     --violet-light:             #a29ff3;
 
-    /* Не используются */
+
 
     --black-dark:               #2C2C2C; /* block panel background and border */
 
@@ -52,58 +59,36 @@
     Шрифты
 */
 
-    --text-color-main:          var(--black);
-    --text-color-inverted:      var(--white);
+    --text-color-light:         var(--white);
+    --text-color-dark:          var(--black);
+
     --text-color-menu:          var(--orange);
     --text-color-menu_hover:    var(--orange-light);
-    --text-color-title-table:   var(--gray-darker);
+
 
     --text-family-main:         'Manrope', arial, sans-serif;
     --text-family-menu:         'Manrope', arial, sans-serif;
-    --text-family-title:        'Roboto', arial, sans-serif;
+    --text-family-hero-motto:   'Proxima Nova', arial, sans-serif;
 
-    --text-size-section:        32px;
-    --text-size-legend:         18px;
-    --text-size-page:           18px;
-    --text-size-menu:           14px;
-    --text-size-product:        16px;
-    --text-size-footer:         16px;
-    --text-size-single:         16px;
-    --text-size-main:           14px;
-    --text-size-tech-specs:     12px;
-
-    --text-size-section_mobile: 26px;
-    --text-size-legend_mobile:  16px;
-    --text-size-footer_mobile:  13px;
-    --text-size-single_mobile:  15px;
-
-    --text-weight-main:         300;
-    --text-weight-semibold:     400;
-    --text-weight-bold:         600;
-    --text-weight-extrabold:    700;
-
-    --text-line-height-section: 36px;
-    --text-line-height-large:   24px;
-    --text-line-height-footer:  23px;
-    --text-line-height-specs:   22px;
-    --text-line-height-main:    18px;
+    /* Не используются */
+    --text-family-section-title:'Roboto', arial, sans-serif;
 
 
-    --text-line-height-section_mobile: 28px;
-    --text-line-height-footer_mobile:  20px;
 
-    /* Для тёмного фона */
-
-    --special-title: var(--violet);
-
+    --text-weight-regular:      400;
+    --text-weight-bold:         700;
+    --text-weight-black:        900;
 
 /*
     Фоны
 */
-    --background-color-menu: var(--off-white);
+    --background-color-main:     var(--white);
+    --background-color-menu:     var(--off-white);
+    --background-color-skeleton: var(--gray-neutral);
+
+    /* Не используются */
 
 
-    --background-color-main: var(--white);
     --background-color-gray: var(--off-white);
     --background-color-black: var(--black);
 
@@ -113,15 +98,9 @@
 
 /*
     Рамки
-*/  --border-color-table:           var(--gray-medium);
-    --border-radius-hero-image:     10px; /* hero-single image  */
-    --border-radius-hero-slider:    14px; /* hero-slider  */
-    --border-radius-button:         5px; /* panel  */
-    --border-radius-card:           14px; /* card-product */
-    --border-radius-flex:           12px; /* card-product */
-    --border-radius-menu-mobile:    14px; /* menu-mobile  */
-    --border-radius-gallery-image:  3px; /* hero-single gallery image  */
-    --border-radius-table:          4px; /* table  */
+*/
+
+    --border-radius-button:         22px; /* button */
 
 /*
     Ссылки
@@ -131,56 +110,12 @@
     --link-normal-color_hover:      var(--orange-light);
     --link-normal-color_disabled:   var(--gray);
 
-    /* Для тёмного фона */
-     --link-normal-color-dark-bk:   var(--violet);
-     --link-normal-color_hover-dark-bk: var(--violet-light);
 /*
     Кнопки
 */
-    --button-rounded-color:                    var(--white);
-    --button-rounded-background-color:         var(--black);
-    --button-rounded-background-color_hover:   var(--black);
-    --button-rounded-border-color:             var(--black);
 
-    /* Не используются */
-
-    --button-normal-color:                    var(--white);
-    --button-normal-background-color:         var(--black);
-    --button-normal-background-color_hover:   var(--black-light);
-    --button-normal-border-color:             var(--black);
-
-    --button-outlined-color:                  var(--black);
-    --button-outlined-background-color:       var(--white);
-    --button-outlined-background-color_hover: var(--gray-light);
-    --button-outlined-border-color:           var(--black);
-
-    --button-blue-color:                      var(--white);
-    --button-blue-background-color:           var(--blue);
-    --button-blue-background-color_hover:     var(--green);
-    --button-blue-border-color:               var(--blue);
-
-    --button-gray-color:                      var(--white);
-    --button-gray-background-color:           var(--gray-dark);
-    --button-gray-background-color_hover:     var(--orange);
-    --button-gray-border-color:               var(--gray-dark);
-}
-
-body.page-dark {
-    --gray-darker: var(--white);
-
-    .card-single {
-        background-color: #101010;
-    }
-
-    .section-title {
-        color: var(--violet, #000000);
-    }
-
-    .back-to-top path {
-        fill: var(--gray-dark, #747474);
-    }
-
-    .back-to-top:hover path {
-        fill: var(--gray, #A6A6A6);
-    }
+    --button-text-color:               var(--white);
+    --button-text-family:              var(--text-family-hero-motto);
+    --button-background-color:         var(--orange-lighter);
+    --button-background-color_hover:   var(--orange-light);
 }
