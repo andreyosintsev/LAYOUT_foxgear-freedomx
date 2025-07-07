@@ -1,18 +1,61 @@
-.p-declaration {
-    max-width: 800px;
-    margin-bottom: 20px;
+.p-text {
+    color: var(--text-color-dark, #000000);
+    font-family: var(--text-family-main, sans-serif);
+    font-weight: var(--text-weight-regular, 400);
 
-    color: var(--gray-neutral, #DCE2E1);
-    font-family: var(--text-family-menu, sans-serif);
-    font-weight: var(--text-weight-main, 400);
-    font-size: 36px;
+    font-size: 20px;
 
-    line-height: 40px;
+    line-height: 30px;
 
     overflow-wrap: break-word;
     hyphens: auto;
 }
 
+.p-text_white {
+    color: var(--text-color-light, #FFFFFF);
+}
+
+.p-text_orange {
+    color: var(--orange-light, #EDAA45);
+}
+
+.p-text_bold {
+    font-weight: var(--text-weight-bold, 700);
+}
+
+.p-text_centered {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+    text-align: center;
+}
+
+.p-text_diminished {
+    margin-bottom: 10px;
+
+    font-size: 18px;
+
+    line-height: 25px;
+}
+
+.p-text_diminished:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .p-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .p-text_diminished {
+        font-size: 16px;
+
+        line-height: 24px;
+    }
+}
+
+/*
 .p-text {
     max-width: 800px;
     margin-top: 40px;
@@ -54,29 +97,5 @@
 }
 
 .p-link:hover {
-    color: var(--link-normal-color_hover, #FFA366); 
-}
-
-body.page-dark {
-    .p-declaration {
-        color: var(--gray, #656565);
-    }
-
-    .p-superscript {
-        color: var(--gray-light, #000000);
-    }
-
-    .p-strong {
-        color: var(--white, #000000);
-    }
-
-    .p-link {
-        color: var(--violet, #F76500);
-    }
-
-    .p-text {
-        margin: 0;
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-}
+    color: var(--link-normal-color_hover, #FFA366);
+} */

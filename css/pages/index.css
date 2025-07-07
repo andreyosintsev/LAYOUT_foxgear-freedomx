@@ -36,6 +36,13 @@ body {
     padding-bottom: 120px;
 }
 
+@media screen and (max-width: 768px) {
+    .main__created-for {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
 /*
 .main__wrapper {
     margin: 0 auto 60px;
