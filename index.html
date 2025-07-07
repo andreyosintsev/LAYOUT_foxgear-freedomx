@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/common/lightbox.min.css" >
     <link rel="stylesheet" href="css/common/consts.css">
     <link rel="stylesheet" href="css/common/typography.css">
+
     <link rel="stylesheet" href="blocks/wrapper/css/wrapper.css">
     <link rel="stylesheet" href="blocks/logo/css/logo.css">
     <link rel="stylesheet" href="blocks/menu-main/css/menu-main.css">
@@ -28,6 +29,7 @@
     <link rel="stylesheet" href="blocks/block-fullscreen/css/block-fullscreen.css">
     <link rel="stylesheet" href="blocks/block-hero/css/block-hero.css">
     <link rel="stylesheet" href="blocks/video/css/video.css">
+    <link rel="stylesheet" href="blocks/section-title/css/section-title.css">
 
     <link rel="stylesheet" href="blocks/back-to-top/css/back-to-top.css">
 
@@ -38,7 +40,7 @@
     <link rel="stylesheet" href="blocks/form/css/form.css">
     <link rel="stylesheet" href="blocks/panel-single/css/panel-single.css">
     <link rel="stylesheet" href="blocks/hero-single/css/hero-single.css">
-    <link rel="stylesheet" href="blocks/section-title/css/section-title.css">
+
     <link rel="stylesheet" href="blocks/flex-image-text/css/flex-image-text.css">
     <link rel="stylesheet" href="blocks/flex-image-specs/css/flex-image-specs.css">
     <link rel="stylesheet" href="blocks/tech-specs/css/tech-specs.css">
@@ -166,7 +168,7 @@
     </div>
 
     <main class="main">
-        <div class="block-hero">
+        <div class="block-hero main__hero">
             <div class="block-fullscreen block-hero__fullscreen">
                 <div class="wrapper block-hero__wrapper">
                     <div class="logo block-hero__logo">
@@ -198,18 +200,20 @@
                 </button>
             </div>
         </div>
-        <div class="block-fullscreen">
+        <div class="block-fullscreen main__overview">
             <div class="video">
                 <video class="video__player"
-                    poster="../../videos/video-01.webp"
+                    poster="videos/video-01.webp"
                     autoplay playsinline muted loop>
-                    <source src="../../videos/video-01.webm" type="video/webm">
-                    <source src="../../videos/video-01.mp4" type="video/mp4">
+                    <source src="videos/video-01.webm" type="video/webm">
+                    <source src="videos/video-01.mp4" type="video/mp4">
                     Ваш браузер не поддерживает видео
                 </video>
             </div>
         </div>
-
+        <section class="wrapper main__created-for">
+            <h2 class="section-title">💖&nbsp;Создано для современной жизни&nbsp;💖</h2>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__content">

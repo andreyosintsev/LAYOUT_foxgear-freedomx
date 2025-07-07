@@ -31,6 +31,12 @@ body {
     padding-top: 50px;
 }
 
+.main__created-for {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/*
 .main__wrapper {
     margin: 0 auto 60px;
 
@@ -72,3 +78,4 @@ body {
 .youtube-videos {
     margin: 0 auto 100px;
 }
+*/

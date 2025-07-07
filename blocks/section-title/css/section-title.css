@@ -1,0 +1,30 @@
+.section-title {
+    margin: 0;
+    padding: 0;
+
+    color: var(--text-color-main, #000000);
+    font-family: var(--text-family-section-title, sans-serif);
+    font-size: 52px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+    line-height: 53px;
+
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .section-title {
+        font-size:  clamp(30px, calc(5.08vw - 8.95px), 52px);
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size:  30px;
+
+        line-height: 36px;
+    }
+}
+
+
