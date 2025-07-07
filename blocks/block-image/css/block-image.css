@@ -1,0 +1,19 @@
+.block-image {
+    width: 100%;
+}
+
+.block-image__image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.block-image_blank {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .block-image_blank {
+        display: block;
+    }
+}

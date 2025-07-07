@@ -36,10 +36,26 @@ body {
     padding-bottom: 120px;
 }
 
+.section-title_created-for {
+    margin-bottom: 40px;
+}
+
+.p-text_created-for {
+    margin-bottom: 50px;
+}
+
 @media screen and (max-width: 768px) {
     .main__created-for {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+
+    .section-title_created-for {
+        margin-bottom: 20px;
+    }
+
+    .p-text_created-for {
+        margin-bottom: 30px;
     }
 }
 

@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="blocks/block-hero/css/block-hero.css">
     <link rel="stylesheet" href="blocks/video/css/video.css">
     <link rel="stylesheet" href="blocks/section-title/css/section-title.css">
+    <link rel="stylesheet" href="blocks/flex-images/css/flex-images.css">
+    <link rel="stylesheet" href="blocks/block-image/css/block-image.css">
 
     <link rel="stylesheet" href="blocks/back-to-top/css/back-to-top.css">
 
@@ -212,8 +214,29 @@
             </div>
         </div>
         <section class="wrapper main__created-for">
-            <h2 class="section-title">💖&nbsp;Создано для современной жизни&nbsp;💖</h2>
-            <p class="p-text p-text_centered">At NEWTRAL, we design seating that brings freedom, comfort, and flexibility to your lifestyle—empowering you to work, relax, and connect your way.</p>
+            <h2 class="section-title section-title_created-for">💖&nbsp;Создано для современной жизни&nbsp;💖</h2>
+            <p class="p-text p-text_centered p-text_created-for">At NEWTRAL, we design seating that brings freedom, comfort, and flexibility to your lifestyle—empowering you to work, relax, and connect your way.</p>
+            <div class="flex-images">
+                <img class="flex-images__image"
+                    src="images/flex-images/01-1.webp"
+                    alt="Кресло FoxGear STUDIO Fabric для работы">
+                <img class="flex-images__image"
+                    src="images/flex-images/01-2.webp"
+                    alt="Кресло FoxGear STUDIO Fabric для отдыха">
+                <img class="flex-images__image"
+                    src="images/flex-images/01-3.webp"
+                    alt="Кресло FoxGear STUDIO Fabric для животных">
+            </div>
+            <div class="block-image block-image_blank">
+                <picture>
+                    <source
+                        srcset="images/block-image/01.webp"
+                        media="(max-width: 768px)">
+                    <img class="block-image__image"
+                        src="images/block-image/01.webp"
+                        alt="Кресло FoxGear STUDIO Fabric для работы и отдыха">
+                </picture>
+            </div>
         </section>
     </main>
     <footer class="footer">
