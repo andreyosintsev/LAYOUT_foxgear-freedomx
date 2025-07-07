@@ -1,0 +1,18 @@
+.flex-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.flex-images__image {
+    width: 33%;
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-images  {
+        display: none;
+    }
+}
