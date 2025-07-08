@@ -1,0 +1,122 @@
+.flex-image-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.flex-image-text__item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-image-text__item:first-child {
+    width: 58%;
+}
+
+.flex-image-text__item:last-child {
+    width: 42%;
+ }
+
+.flex-image-text_reverse .flex-image-text__item:first-child {
+     order: 2;
+}
+
+.flex-image-text_reverse .flex-image-text__item:last-child {
+    order: 1;
+}
+
+.flex-image-text_center .flex-image-text__image {
+    margin-bottom: 0;
+}
+
+.flex-image-text_center .flex-image-text__text {
+    text-align: center;
+}
+
+.flex-image-text__item_flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-image-text__image {
+    width: 100%;
+    height: auto;
+
+    border-radius: var(--border-radius-images, 20px);
+}
+
+.flex-image-text__text {
+    color: var(--gray-dark, #282828);
+    font-family: var(--text-family-main, sans-serif);
+    font-weight: 400;
+
+    text-align: left;
+}
+
+.flex-image-text__p {
+    color: var(--gray-dark, #282828);
+}
+
+.flex-image-text__title {
+    margin: 0;
+    padding: 10px 0;
+
+    font-family: 'Lato';
+    font-size: 36px;
+    font-weight: 900;
+
+    letter-spacing: 1px;
+    line-height: 42px;
+
+    hyphens: auto;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+@media (max-width: 1200px) {
+    .flex-image-text__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 960px) {
+    .flex-image-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-image-text__image {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .flex-image-text__text {
+        text-align: center;
+    }
+
+    .flex-image-text__item:first-child,
+    .flex-image-text__item:last-child
+    {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .flex-image-text__item:first-child {
+        order: 2;
+    }
+
+    .flex-image-text__item:last-child {
+        order: 1;
+    }
+
+    .flex-image-text__title {
+        font-size: 30px;
+
+        line-height: 100%;
+    }
+}

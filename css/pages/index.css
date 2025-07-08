@@ -62,10 +62,24 @@ body {
 }
 
 .features {
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 90px;
 
     background-color: var(----yellow-lighter, #FCFCED);
+}
+
+.features__flex-image-text {
+    padding: 90px 0 0;
+}
+
+@media (max-width: 960px) {
+    .features {
+        padding-bottom: 60px;
+    }
+
+    .features__flex-image-text {
+        padding: 60px 0 0;
+    }
 }
 
 @media screen and (max-width: 768px) {

@@ -38,7 +38,7 @@
 .video-text__title {
     margin: 0;
 
-    font-family: var(--text-family-section-title, sans-serif);
+    font-family: var(--text-family-card-title, sans-serif);
     font-size: 40px;
     font-weight: 700;
 
@@ -69,7 +69,7 @@
     .video-text__video {
         padding-top: 56.25%;
 
-        border-radius: 20px;
+        border-radius: var(--border-radius-images, 20px);
 
         overflow: hidden;
     }

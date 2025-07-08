@@ -38,10 +38,18 @@
     font-display: swap;
 }
 
-/*Proxima Nova BLack*/
+/*Proxima Nova Black*/
 @font-face {
     font-family: 'Proxima Nova';
     font-weight: 900;
     src: url("../../fonts/Proximanova-Black.otf") format("opentype");
+    font-display: swap;
+}
+
+/*Lato Black*/
+@font-face {
+    font-family: 'Lato';
+    font-weight: 900;
+    src: url("../../fonts/Lato-Black.ttf") format("truetype");
     font-display: swap;
 }

@@ -15,6 +15,7 @@
 */
 
     --black:                    #000000; /* dark text */
+    --gray-dark:                #282828; /* flex-image-text title */
     --off-white:                #FCF8ED; /* neutral and main menu background*/
     --white:                    #FFFFFF; /* light text */
 
@@ -31,8 +32,6 @@
     /* Не используются */
 
     --gray-deep-dark:           #171717; /* for cards (faster) */
-    --gray-darker:              #252525; /* section title page*/
-    --gray-dark:                #3C3C3C; /* back to top */
     --gray:                     #656565; /* description */
     --gray-medium:              #B7B7B7; /* p declaration */
     --gray-light:               #D2D7D7; /* description */
@@ -51,7 +50,6 @@
 
     --black-dark:               #2C2C2C; /* block panel background and border */
 
-    --gray-dark:                #747474; /* gray button */
     --gray-light:               #EFEFEF; /* button outlined hover */
     --red:                      #FF6666; /* form error */
 
@@ -72,6 +70,7 @@
     --text-family-menu:         'Manrope', arial, sans-serif;
     --text-family-hero-motto:   'Proxima Nova', arial, sans-serif;
     --text-family-section-title:'Fira Sans', arial, sans-serif;
+    --text-family-card-title:   'Leto', arial, sans-serif;
 
 
 
@@ -86,21 +85,13 @@
     --background-color-menu:     var(--off-white);
     --background-color-skeleton: var(--gray-neutral);
 
-    /* Не используются */
-
-
-    --background-color-gray: var(--off-white);
-    --background-color-black: var(--black);
-
-    --background-color-inverted: var(--black);
-    --background-color-card: var(--gray-deep-dark);
-    --background-color-table: var(--off-white);
-
 /*
     Рамки
 */
 
     --border-radius-button:         22px; /* button */
+    --border-radius-images:         20px; /* images */
+    --border-radius-menu-mobile:    14px; /* menu mobile items */
 
 /*
     Ссылки
