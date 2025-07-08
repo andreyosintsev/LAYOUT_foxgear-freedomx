@@ -1,4 +1,4 @@
-.block-fullscreen {
+.block-fullheight {
     width: 100%;
     height: 100dvh;
     height: calc(var(--vh, 1vh) * 100 - 50px);
@@ -9,6 +9,6 @@
     background-color: black;
 }
 
-.block-fullscreen_offwhite {
+.block-fullheight_offwhite {
     background-color: var(--off-white, #FCF8ED);
 }
