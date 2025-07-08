@@ -44,6 +44,23 @@ body {
     margin-bottom: 50px;
 }
 
+.main__one-chair {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.one-chair {
+    background-color: var(--off-white, #FCF8ED);
+}
+
+.symbol__one-chair {
+    display: block;
+}
+
+.section-title_one-chair {
+    margin-bottom: 40px;
+}
+
 @media screen and (max-width: 768px) {
     .main__created-for {
         padding-top: 60px;
@@ -56,6 +73,11 @@ body {
 
     .p-text_created-for {
         margin-bottom: 30px;
+    }
+
+    .main__one-chair {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
 

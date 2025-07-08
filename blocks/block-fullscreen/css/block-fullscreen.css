@@ -8,3 +8,7 @@
 
     background-color: black;
 }
+
+.block-fullscreen_offwhite {
+    background-color: var(--off-white, #FCF8ED);
+}
