@@ -61,6 +61,13 @@ body {
     margin-bottom: 40px;
 }
 
+.features {
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+    background-color: var(----yellow-lighter, #FCFCED);
+}
+
 @media screen and (max-width: 768px) {
     .main__created-for {
         padding-top: 60px;

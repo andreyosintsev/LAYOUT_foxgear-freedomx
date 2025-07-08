@@ -8,7 +8,9 @@
 @media screen and (max-width: 768px) {
     .wrapper {
         max-width: 768px;
-        margin: 0 clamp(0, 50.39vw - 322.5px, 64px);
+        margin: 0;
+        padding-left: clamp(15px, calc(38.583vw - 231.93px), 64px);
+        padding-right: clamp(15px, calc(38.583vw - 231.93px), 64px);
     }
 }
 
