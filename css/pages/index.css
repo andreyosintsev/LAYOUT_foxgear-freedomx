@@ -61,11 +61,33 @@ body {
     padding-top: 60px;
     padding-bottom: 90px;
 
-    background-color: var(----yellow-lighter, #FCFCED);
+    background-color: var(--yellow-lighter, #FCFCED);
 }
 
 .features__flex-image-text {
     padding: 90px 0 0;
+}
+
+.new-favorite {
+    margin: 100px 0 50px;
+}
+
+.new-favorite__image_cat {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.new-favorite__image_dog {
+    width: 70px;
+    height: 87px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1440px) {
+    .new-favorite {
+        margin: 0 auto 0;
+    }
 }
 
 @media (max-width: 960px) {
@@ -75,6 +97,11 @@ body {
 
     .features__flex-image-text {
         padding: 60px 0 0;
+    }
+
+    .new-favorite {
+        margin: 100px 0 50px;
+        padding: 0;
     }
 }
 
@@ -95,6 +122,22 @@ body {
     .wrapper_one-chair {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+
+    .new-favorite {
+        margin: 50px 0 40px;
+    }
+
+    .new-favorite__image_cat {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .new-favorite__image_dog {
+        width: 50px;
+        height: 62px;
+        margin-bottom: 20px;
     }
 }
 
