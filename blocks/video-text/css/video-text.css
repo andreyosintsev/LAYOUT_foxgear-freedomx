@@ -39,8 +39,8 @@
     margin: 0;
 
     font-family: var(--text-family-card-title, sans-serif);
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 36px;
+    font-weight: 900;
 
     letter-spacing: 1px;
     line-height: 46px;

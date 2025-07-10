@@ -4,6 +4,7 @@
     color: var(--text-color-light);
     font-family: var(--text-family-main, sans-serif);
 }
+
 .block-hero__fullscreen {
     background-color: transparent;
 
@@ -13,7 +14,7 @@
     background-repeat: no-repeat;
 
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/hero.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../../../images/backgrounds/01.webp);
 }
 
 .block-hero__wrapper {

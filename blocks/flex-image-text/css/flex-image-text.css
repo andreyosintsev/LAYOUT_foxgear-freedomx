@@ -65,7 +65,7 @@
     margin: 0;
     padding: 10px 0;
 
-    font-family: 'Lato';
+    font-family: var(--text-family-card-title, sans-serif);
     font-size: 36px;
     font-weight: 900;
 
