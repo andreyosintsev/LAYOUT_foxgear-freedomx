@@ -35,6 +35,8 @@
     <link rel="stylesheet" href="blocks/video-text/css/video-text.css">
     <link rel="stylesheet" href="blocks/flex-image-text/css/flex-image-text.css">
     <link rel="stylesheet" href="blocks/block-fullheight-text/css/block-fullheight-text.css">
+    <link rel="stylesheet" href="blocks/block-prefooter/css/block-prefooter.css">
+    <link rel="stylesheet" href="blocks/footer/css/footer.css">
 
     <link rel="stylesheet" href="blocks/back-to-top/css/back-to-top.css">
 
@@ -61,15 +63,20 @@
     <header class="header">
         <div class="wrapper header__wrapper">
             <div class="logo header__logo">
-                <a class="logo__link" href="#" title="Столы FoxGear LIFTISH - главная страница">
+                <a class="logo__link" href="https://foxgear.store/pages/fg-ed-55/" title="Столы FoxGear LIFTISH - главная страница">
                     <img class="logo__image" src="blocks/logo/images/logo.png" alt="Логотип FoxGear">
                 </a>
             </div>
             <nav class="menu-main header__menu-main">
                 <ul class="menu-main__items">
                     <li class="menu-main__item">
-                        <a class="menu-main__link" href="#description" title="Презентация столов FoxGear LIFTISH">
-                            Столы FoxGear
+                        <a class="menu-main__link" href="#features" title="Презентация кресел FOXGEAR Studio">
+                            Особенности
+                        </a>
+                    </li>
+                    <li class="menu-main__item">
+                        <a class="menu-main__link" href="#advantages" title="Фотографии столов">
+                            Преимущества
                         </a>
                     </li>
                     <li class="menu-main__item">
@@ -78,13 +85,8 @@
                         </a>
                     </li>
                     <li class="menu-main__item">
-                        <a class="menu-main__link" href="#photos" title="Фотографии столов">
-                            Фотографии
-                        </a>
-                    </li>
-                    <li class="menu-main__item">
-                        <a class="menu-main__link" href="#reviews" title="Обзоры столов LIFTISH">
-                            Обзоры
+                        <a class="menu-main__link" href="#reviews" title="Отзывы на кресла">
+                            Отзывы
                         </a>
                     </li>
                     <li class="menu-main__item">
@@ -117,10 +119,20 @@
             <ul class="menu-mobile__items">
                 <li class="menu-mobile__item">
                     <a class="menu-mobile__item-link"
-                        href="#description"
+                        href="#features"
                         title="Презентация столов FoxGear LIFTISH">
                         <div class="menu-mobile__item-title">
-                            Столы FoxGear LIFTISH
+                            Особенности
+                        </div>
+                        <div class="menu-mobile__item-arrow"></div>
+                    </a>
+                </li>
+                <li class="menu-mobile__item">
+                    <a class="menu-mobile__item-link"
+                        href="#advantages"
+                        title="Преимущества кресел">
+                        <div class="menu-mobile__item-title">
+                            Преимущества
                         </div>
                         <div class="menu-mobile__item-arrow"></div>
                     </a>
@@ -137,20 +149,10 @@
                 </li>
                 <li class="menu-mobile__item">
                     <a class="menu-mobile__item-link"
-                        href="#photos"
-                        title="Фотографии столов">
-                        <div class="menu-mobile__item-title">
-                            Фотографии
-                        </div>
-                        <div class="menu-mobile__item-arrow"></div>
-                    </a>
-                </li>
-                <li class="menu-mobile__item">
-                    <a class="menu-mobile__item-link"
                         href="#reviews"
-                        title="Обзоры столов LIFTISH">
+                        title="Отзывы на кресла">
                         <div class="menu-mobile__item-title">
-                            Обзоры
+                            Отзывы на кресла
                         </div>
                         <div class="menu-mobile__item-arrow"></div>
                     </a>
@@ -172,7 +174,7 @@
         </div>
     </div>
 
-    <main class="main">
+    <div class="main">
         <div class="block-hero">
             <div class="block-fullheight block-hero__fullscreen">
                 <div class="wrapper block-hero__wrapper">
@@ -216,7 +218,7 @@
                 </video>
             </div>
         </div>
-        <section class="wrapper wrapper_created-for">
+        <section class="wrapper wrapper_created-for" id="features">
             <h2 class="section-title section-title_created-for">💖&nbsp;Создано для современной жизни&nbsp;💖</h2>
             <p class="p-text p-text_centered p-text_created-for">At NEWTRAL, we design seating that brings freedom, comfort, and flexibility to your lifestyle—empowering you to work, relax, and connect your way.</p>
             <div class="flex-images">
@@ -403,7 +405,176 @@
                 </div>
             </div>
         </div>
-    </main>
+    </div>
+    <div class="why-you-need main main_yellow" id="advantages">
+        <section class="wrapper wrapper_why-you-need">
+            <h2 class="section-title section-title_created-for">Почему вам нужно кресло <span class="orange">FoxGear STUDIO</span></h2>
+            <div class="flex-images flex-images_why-you-need">
+                <img class="flex-images__image"
+                    src="images/flex-images/03-1.webp"
+                    alt="Кресло FoxGear STUDIO Fabric - повышение производительности">
+                <img class="flex-images__image"
+                    src="images/flex-images/03-2.webp"
+                    alt="Кресло FoxGear STUDIO Fabric - многофункциональный дизайн">
+                <img class="flex-images__image"
+                    src="images/flex-images/03-3.webp"
+                    alt="Кресло FoxGear STUDIO Fabric - отдых и восстановление">
+                <img class="flex-images__image"
+                    src="images/flex-images/03-4.webp"
+                    alt="Кресло FoxGear STUDIO Fabric - комфортные ощущения">
+            </div>
+            <div class="block-image block-image_blank">
+                <picture>
+                    <source
+                        srcset="images/block-image/01.webp"
+                        media="(max-width: 768px)">
+                    <img class="block-image__image"
+                        src="images/block-image/01.webp"
+                        alt="Кресло FoxGear STUDIO Fabric для работы и отдыха">
+                </picture>
+            </div>
+        </section>
+    </div>
+    <div class="adjust-comfort block-fullheight">
+        <div class="video">
+            <video class="video__player"
+                poster="videos/video-03.webp"
+                autoplay playsinline muted loop>
+                <source src="videos/video-06.webm" type="video/webm">
+                <source src="videos/video-06.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео
+            </video>
+            <div class="video__title">
+                Комфорт каждой позы
+            </div>
+        </div>
+    </div>
+    <div class="built-to-last">
+        <section class="wrapper wrapper_one-chair">
+            <h2 class="section-title section-title_one-chair">
+                Ваш стиль, созданный на века😍
+            </h2>
+            <p class="p-text p-text_centered">Choose from four premium finishes designed to look great and last, bringing comfort and style to any space.</p>
+            <div class="block-image">
+                <picture>
+                    <source
+                        srcset="images/block-image/04.webp"
+                        media="(min-width: 769px)">
+                    <source
+                        srcset="images/block-image/768/04.webp"
+                        media="(max-width: 768px)">
+                    <img class="block-image__image"
+                        src="images/block-image/02.webp"
+                        alt="Кресло FoxGear STUDIO Fabric - стиль в каждой детали">
+                </picture>
+            </div>
+        </section>
+    </div>
+    <div class="premium-details main_yellow">
+        <div class="wrapper">
+            <div class="flex-image-text features__flex-image-text flex-image-text_reverse">
+                <div class="flex-image-text__item flex-image-text__item_flex-end">
+                    <img class="flex-image-text__image"
+                        src="../../images/flex-image-text/02.webp"
+                        alt="Your Go-To for Work & Wind Down"
+                        title="Your Go-To for Work & Wind Down">
+                    </img>
+                </div>
+                <div class="flex-image-text__item">
+                    <div class="flex-image-text__text">
+                        <div class="premium-details__symbol">✨</div>
+                        <h2 class="flex-image-text__title">Премиум-детали</h2>
+                        <p class="p-text flex-image-text__p">
+                            Pet-friendly, scratch-resistant fabric and sturdy, silent wheels protect your floors and handle weight smoothly - built for durability and comfort.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="specifications" id="specs">
+        <section class="wrapper wrapper_one-chair">
+            <h2 class="section-title section-title_one-chair">
+                Технические характеристики
+            </h2>
+            <div class="block-image">
+                <picture>
+                    <source
+                        srcset="images/block-image/05.webp"
+                        media="(min-width: 769px)">
+                    <source
+                        srcset="images/block-image/768/05_mobile.webp"
+                        media="(max-width: 768px)">
+                    <img class="block-image__image"
+                        src="images/block-image/02.webp"
+                        alt="Кресло FoxGear STUDIO Fabric - стиль в каждой детали">
+                </picture>
+            </div>
+        </section>
+    </div>
+    <div class="success-story" id="reviews">
+        <section class="wrapper wrapper_one-chair">
+            <h2 class="section-title section-title_one-chair">
+                Доказанная история успеха
+            </h2>
+            <p class="p-text p-text_centered">Following the incredible success of our MagicH chair - raising over <span class="orange bold"> $1.8 million from 5,400 backers</span> on Kickstarter - we are thrilled to bring you the Freedom-X: a new level of style, comfort, and flexibility for today’s lifestyle.</p>
+            <div class="block-image">
+                <picture>
+                    <source
+                        srcset="images/block-image/06.webp"
+                        media="(min-width: 769px)">
+                    <source
+                        srcset="images/block-image/768/06_mobile.webp"
+                        media="(max-width: 768px)">
+                    <img class="block-image__image"
+                        src="images/block-image/02.webp"
+                        alt="Кресло FoxGear STUDIO Fabric - стиль в каждой детали">
+                </picture>
+            </div>
+            <div class="reviews block-image">
+                <picture>
+                    <source
+                        srcset="images/block-image/07.webp"
+                        media="(min-width: 769px)">
+                    <source
+                        srcset="images/block-image/768/07_mobile.webp"
+                        media="(max-width: 768px)">
+                    <img class="block-image__image"
+                        src="images/block-image/07.webp"
+                        alt="Кресло FoxGear STUDIO Fabric - отзывы о кресле">
+                </picture>
+            </div>
+        </section>
+    </div>
+    <div class="block-prefooter">
+        <div class="block-fullheight block-prefooter__fullscreen">
+            <div class="block-prefooter__wrapper">
+                <div class="block-prefooter__content">
+                    <div class="block-prefooter__product">
+                        <p class="block-prefooter__p">Купите кресло FOXGEAR Studio Fabric прямо сейчас</p>
+                        <p class="block-prefooter__p">- Доставка по всей России</p>
+                        <p class="block-prefooter__p">- Гарантия 1 год</p>
+                    </div>
+                    <button class="button block-prefooter__button button_buy"
+                        type="button"
+                        data-product="кресло FoxGear STUDIO Fabric">
+                        Заказать кресло FoxGear STUDIO
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="block-prefooter__mobile">
+            <div class="block-prefooter__product">
+                <p class="block-prefooter__p">Купите кресло FOXGEAR Studio Fabric прямо сейчас</p>
+            </div>
+            <button class="button block-prefooter__button block-prefooter__button_mobile button_buy"
+                type="button"
+                data-product="кресло FoxGear STUDIO Fabric">
+                Заказать кресло FoxGear STUDIO
+            </button>
+            <img class="block-prefooter__mobile-image" src="images/backgrounds/03_mobile.webp" alt="Кресло FoxGear STUDIO Fabric">
+        </div>
+    </div>
     <footer class="footer">
         <div class="footer__content">
             <div class="footer__menu">
@@ -413,29 +584,37 @@
                     </div>
                     <div class="footer__menu-item">
                         <a class="footer__menu-link"
-                            href="#description"
-                            title="Смотреть описание столов FoxGear FG-ED-55">
+                            href="https://foxgear.store/pages/fg-ed-55#description"
+                            title="Смотреть описание столов FoxGear FG-ED-55"
+                            target="_blank"
+                            rel="noopener">
                             Описание столов
                         </a>
                     </div>
                     <div class="footer__menu-item">
                         <a class="footer__menu-link"
-                            href="#specs"
-                            title="Технические характеристики столов FoxGear">
+                            href="https://foxgear.store/pages/fg-ed-55#specs"
+                            title="Технические характеристики столов FoxGear"
+                            target="_blank"
+                            rel="noopener">
                             Технические характеристики
                         </a>
                     </div>
                     <div class="footer__menu-item">
                         <a class="footer__menu-link"
-                            href="#photos"
-                            title="Смотреть фотографии столов FoxGear LIFTISH">
+                            href="https://foxgear.store/pages/fg-ed-55#photos"
+                            title="Смотреть фотографии столов FoxGear LIFTISH"
+                            target="_blank"
+                            rel="noopener">
                             Фотографии
                         </a>
                     </div>
                     <div class="footer__menu-item">
                         <a class="footer__menu-link"
-                            href="#reviews"
-                            title="Смотреть обзоры на столы FoxGear">
+                            href="https://foxgear.store/pages/fg-ed-55#reviews"
+                            title="Смотреть обзоры на столы FoxGear"
+                            target="_blank"
+                            rel="noopener">
                             Обзоры
                         </a>
                     </div>
@@ -523,7 +702,7 @@
                 </div>
             </div>
             <div class="footer__motto">
-                Мы поможем вам подобрать идеальный стол для вашего рабочего пространства.
+                Мы поможем вам подобрать идеальную мебель для вашего рабочего пространства.
             </div>
         </div>
         <div class="popup hidden" id="popup-order">
