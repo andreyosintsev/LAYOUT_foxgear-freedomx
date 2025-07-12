@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Block</title>
+    <link rel="stylesheet" href="../../css/common/normalize.css">
+    <link rel="stylesheet" href="../../css/common/consts.css">
+    <link rel="stylesheet" href="../button/css/button.css">
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+<body style="background-color: lime;">
+    <div class="popup" id="popup-order">
+        <div class="loader hidden"></div>
+        <h2 class="h2 popup__heading">
+            Оставьте заявку
+        </h2>
+        <p class="popup__product"></p>
+        <form class="form popup__form">
+            <input class="form__input" name="name" placeholder="Ваше имя">
+            <input class="form__input" name="tel" placeholder="Телефон">
+            <input class="form__input" name="email" placeholder="E-mail">
+            <input type="hidden" name="product">
+            <div class="form__submit">
+                <input class="button form__button" type="submit" value="Отправить">
+                <div class="form__offer">
+                    Нажимая кнопку &ldquo;Отправить&rdquo;<br>
+                    вы соглашаетесь с <a class="form__link" href="#" title="Текст публичной оферты" target="_blank">публичной офертой</a>
+                </div>
+            </div>
+        </form>
+        <div class="popup__close"></div>
+    </div>
+    <div class="popup popup_success hidden" id="popup-success">
+        <h2 class="h2 popup__heading popup__heading_success">
+            Успешно отправлено
+        </h2>
+        <p class="popup__text">
+            Ваше запрос было успешно отправлен.
+        </p>
+        <p class="popup__text">
+            В ближайшее время наш менеджер свяжется с Вами и предоставит всю необходимую информацию.
+        </p>
+        <p class="popup__text">
+            Благодарим за обращение!
+        </p>        
+    </div>
+    <div class="popup popup_failed hidden" id="popup-failed">
+        <h2 class="h2 popup__heading popup__heading_failed">
+            Сообщение не отправлено
+        </h2>
+        <p class="popup__text">
+            К сожалению, Ваш запрос отправить не удалось.
+        </p>
+        <p class="popup__text">
+            Но мы знаем о проблеме, и совсем скоро её устраним. Попробуйте ещё раз отправить обращение позже.
+        </p>
+        <p class="popup__text">
+            Просим прощения за доставленные неудобства.
+        </p>        
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="scripts/popup.js"></script>
+</body>
+</html>

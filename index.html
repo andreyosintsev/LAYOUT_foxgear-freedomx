@@ -40,23 +40,7 @@
 
     <link rel="stylesheet" href="blocks/back-to-top/css/back-to-top.css">
 
-    <!--link rel="stylesheet" href="blocks/rating/css/rating.css">
-    <link rel="stylesheet" href="blocks/button/css/button.css">
-    <link rel="stylesheet" href="blocks/benefits/css/benefits.css">
-    <link rel="stylesheet" href="blocks/accordion/css/accordion.css">
-    <link rel="stylesheet" href="blocks/form/css/form.css">
-    <link rel="stylesheet" href="blocks/panel-single/css/panel-single.css">
-    <link rel="stylesheet" href="blocks/hero-single/css/hero-single.css">
-
-    <link rel="stylesheet" href="blocks/flex-image-text/css/flex-image-text.css">
-    <link rel="stylesheet" href="blocks/flex-image-specs/css/flex-image-specs.css">
-    <link rel="stylesheet" href="blocks/tech-specs/css/tech-specs.css">
-    <link rel="stylesheet" href="blocks/image-slider/css/image-slider.css">
-    <link rel="stylesheet" href="blocks/block-youtube/css/block-youtube.css">
-    <link rel="stylesheet" href="blocks/youtube-videos/css/youtube-videos.css">
-    <link rel="stylesheet" href="blocks/footer/css/footer.css">
-    <link rel="stylesheet" href="blocks/back-to-top/css/back-to-top.css">
-    <link rel="stylesheet" href="blocks/popup/css/popup.css"-->
+    <link rel="stylesheet" href="blocks/popup/css/popup.css">
     <link rel="stylesheet" href="css/pages/index.css">
 </head>
 <body>
@@ -281,10 +265,10 @@
             <div class="video-text__wrapper">
                 <div class="video video-text__video">
                     <video class="video__player"
-                        poster="../../videos/video-03.webp"
+                        poster="videos/video-03.webp"
                         autoplay playsinline muted loop>
-                        <source src="../../videos/video-03.webm" type="video/webm">
-                        <source src="../../videos/video-03.mp4" type="video/mp4">
+                        <source src="videos/video-03.webm" type="video/webm">
+                        <source src="videos/video-03.mp4" type="video/mp4">
                         Ваш браузер не поддерживает видео
                     </video>
                 </div>
@@ -330,7 +314,7 @@
                 <div class="flex-image-text features__flex-image-text">
                     <div class="flex-image-text__item flex-image-text__item_flex-end">
                         <img class="flex-image-text__image"
-                            src="../../images/flex-image-text/01.webp"
+                            src="images/flex-image-text/01.webp"
                             alt="Your Go-To for Work & Wind Down"
                             title="Your Go-To for Work & Wind Down">
                         </img>
@@ -363,10 +347,10 @@
             <div class="video-text__wrapper">
                 <div class="video video-text__video">
                     <video class="video__player"
-                        poster="../../videos/video-04.webp"
+                        poster="videos/video-04.webp"
                         autoplay playsinline muted loop>
-                        <source src="../../videos/video-04.webm" type="video/webm">
-                        <source src="../../videos/video-04.mp4" type="video/mp4">
+                        <source src="videos/video-04.webm" type="video/webm">
+                        <source src="videos/video-04.mp4" type="video/mp4">
                         Ваш браузер не поддерживает видео
                     </video>
                 </div>
@@ -386,10 +370,10 @@
             <div class="video-text__wrapper">
                 <div class="video video-text__video">
                     <video class="video__player"
-                        poster="../../videos/video-05.webp"
+                        poster="videos/video-05.webp"
                         autoplay playsinline muted loop>
-                        <source src="../../videos/video-05.webm" type="video/webm">
-                        <source src="../../videos/video-05.mp4" type="video/mp4">
+                        <source src="videos/video-05.webm" type="video/webm">
+                        <source src="videos/video-05.mp4" type="video/mp4">
                         Ваш браузер не поддерживает видео
                     </video>
                 </div>
@@ -475,7 +459,7 @@
             <div class="flex-image-text features__flex-image-text flex-image-text_reverse">
                 <div class="flex-image-text__item flex-image-text__item_flex-end">
                     <img class="flex-image-text__image"
-                        src="../../images/flex-image-text/02.webp"
+                        src="images/flex-image-text/02.webp"
                         alt="Your Go-To for Work & Wind Down"
                         title="Your Go-To for Work & Wind Down">
                     </img>
@@ -715,6 +699,7 @@
                 <input class="form__input" name="name" placeholder="Ваше имя">
                 <input class="form__input" name="tel" placeholder="Телефон">
                 <input class="form__input" name="email" placeholder="E-mail">
+                <input class="form__input" name="promocode" placeholder="Промокод (при наличии)">
                 <input type="hidden" name="product">
                 <div class="form__submit">
                     <input class="button form__button" type="submit" value="Отправить">
@@ -739,6 +724,7 @@
             <p class="popup__text">
                 Благодарим за обращение!
             </p>
+            <div class="popup__close"></div>
         </div>
         <div class="popup popup_failed hidden" id="popup-failed">
             <h2 class="h2 popup__heading popup__heading_failed">
@@ -753,6 +739,7 @@
             <p class="popup__text">
                 Просим прощения за доставленные неудобства.
             </p>
+            <div class="popup__close"></div>
         </div>
         <div class="overlay hidden"></div>
     </footer>

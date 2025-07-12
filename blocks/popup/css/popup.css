@@ -1,0 +1,213 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: calc(100% - 32px);
+    padding: 28px 24px 29px;
+
+    color: var(--text-color-main, #000000);
+    font-family: var(--text-family-main, sans-serif);
+
+    background-color: var(--white, #FFFFFF);
+
+    border-radius: var(--border-radius-popup, 10px);
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.noscroll {
+    overflow: hidden;
+}
+
+.popup_failed {
+    width: 600px;
+    max-width: calc(100% - 32px);
+}
+
+.popup__content {
+    display: relative;
+}
+
+.popup__heading {
+    margin-top: 0;
+    margin-bottom: 16px;
+
+    font-size: 28px;
+
+    line-height: 35px;
+}
+
+.popup__heading_success {
+    font-size: 36px;
+}
+
+.popup__heading_failed {
+    font-size: 36px;
+}
+
+.popup__product {
+    margin-top: 0;
+    margin-bottom: 18px;
+
+    font-size: 20px;
+
+    line-height: 1.2;
+}
+
+.popup__text {
+    margin-bottom: 20px;
+
+    line-height: 22px;
+}
+
+.popup__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+
+    background-image: url("../images/close.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+
+    cursor: pointer;
+}
+
+.popup__close:hover {
+    background-image: url("../images/close_hover.svg");
+}
+
+.form__input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 13px 19px;
+
+    color: var(--black-light, #3C3C3C);
+    font-size: var(--text-size-large, 18px);
+
+    line-height: var(--text-line-height-large, 22px);
+
+    background-color: var(--off-white, #F5F5F5);
+
+    border: 1px solid var(--off-white, #F5F5F5);
+    border-radius: var(--border-radius-input, 4px);
+
+    outline: none;
+}
+
+.form__input:focus {
+    border: 1px solid var(--black, #000000);
+
+    transition: 0.3s;
+}
+
+.form__input_error {
+    color: var(--red, #FF6666);
+
+    border: 1px solid var(--red, #FF6666);
+}
+
+.form__input_error::placeholder {
+    color: var(--red, #FF6666);
+}
+
+.form__submit {
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+}
+
+.form__button {
+    margin-right: 16px;
+    padding: 14px 27px;
+}
+
+.form__offer {
+    color: var(--black-light, #3C3C3C);
+    font-size: 12px;
+
+    line-height: 16px;
+}
+
+.form__link {
+    color: #9A68FF;
+}
+
+.form__link:hover {
+    color: #B089FF;
+}
+
+.overlay {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    overflow: auto;
+    z-index: 500;
+}
+
+.loader {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+
+    background: url('../images/loader.svg') no-repeat;
+    background-size: contain;
+
+    z-index: 3000;
+}
+
+@media (max-width: 600px) {
+    .popup__heading {
+        margin-bottom: 5px;
+        font-size: 26px;
+
+        line-height: 30px;
+    }
+
+    .popup__heading_success {
+        font-size: 26px;
+    }
+
+    .popup__heading_failed {
+        font-size: 26px;
+    }
+
+    .popup__product {
+        font-size: 16px;
+    }
+
+    .popup__close {
+        width: 25px;
+        height: 25px;
+
+        background-size: 25px;
+    }
+
+    .form__input {
+        margin-bottom: 10px;
+        padding: 10px 14px;
+
+        font-size: 16px;
+    }
+}

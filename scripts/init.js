@@ -2,7 +2,6 @@
     document.addEventListener('DOMContentLoaded', () => {
         function setFullHeight() {
             const vh = window.innerHeight * 0.01;
-            console.log('vh: ', vh);
             document.documentElement.style.setProperty('--vh', `${vh}px`);
           }
 
