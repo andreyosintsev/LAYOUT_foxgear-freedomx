@@ -17,8 +17,6 @@
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
 
-    transition: background 0.3s;
-
     cursor: pointer;
 }
 

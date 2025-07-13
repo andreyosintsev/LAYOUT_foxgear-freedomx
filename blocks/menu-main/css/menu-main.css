@@ -26,7 +26,7 @@
 
 .menu-main__link {
     display: inline-block;
-    padding: 14px clamp(5px, calc(5px + (15 * (100vw - 901px) / 699)), 20px);
+    padding: 14px clamp(5px, calc(2.15vw - 14.37px), 20px);
 
     color: var(--text-color-menu, #E99C43);
     font-weight: bold;
@@ -36,7 +36,7 @@
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
 
-    transition: background 0.3s;
+    transition: all 0.3s ease;
 
     cursor: pointer;
 }

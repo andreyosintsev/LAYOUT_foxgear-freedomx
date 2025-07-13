@@ -20,9 +20,12 @@
 .button-menu-mobile__icon-line1,
 .button-menu-mobile__icon-line2,
 .button-menu-mobile__icon-line3 {
+    stroke: currentColor;
+    stroke-width: 4;
+    fill: none;
     transform: none;
     transform-origin: center;
-    transition: all .3s cubic-bezier(.18,.77,.58,1);
+    transition: all .3s cubic-bezier(.18, .77, .58, 1);
 }
 
 .button-menu-mobile_active .button-menu-mobile__icon-line1 {

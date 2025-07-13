@@ -22,39 +22,11 @@
     --orange:                   #E99C43; /* accent color */
     --orange-light:             #EDAA45; /* accent color hover */
     --orange-lighter:           #FF7D0A; /* button background */
+    --red:                      #FF6666; /* form error */
 
     --yellow-lighter:           #FCFCED; /* yellow off-white background*/
 
     --gray-neutral:             #DCE2E1; /* p declaration */
-
-
-
-    /* Не используются */
-
-    --gray-deep-dark:           #171717; /* for cards (faster) */
-    --gray:                     #656565; /* description */
-    --gray-medium:              #B7B7B7; /* p declaration */
-    --gray-light:               #D2D7D7; /* description */
-    --gray-neutral:             #DCE2E1; /* p declaration */
-    --gray-lighter:             #E8E8E1; /* review background */
-
-    --green-light:              #E0F3EF; /* button selected background*/
-    --green:                    #00DFA9; /* button selected */
-    --beige:                    #F6F4F1; /* button selected background*/
-    --violet:                   #7671ff; /* text link dark */
-
-    --violet:                   #7671ff; /* title */
-    --violet-light:             #a29ff3;
-
-
-
-    --black-dark:               #2C2C2C; /* block panel background and border */
-
-    --gray-light:               #EFEFEF; /* button outlined hover */
-    --red:                      #FF6666; /* form error */
-
-    --blue:                     #4A90E2; /* blue button */
-
 /*
     Шрифты
 */
@@ -71,8 +43,6 @@
     --text-family-hero-motto:   'Proxima Nova', arial, sans-serif;
     --text-family-section-title:'Fira Sans', arial, sans-serif;
     --text-family-card-title:   'Lato', arial, sans-serif;
-
-
 
     --text-weight-regular:      400;
     --text-weight-bold:         700;

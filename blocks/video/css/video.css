@@ -22,7 +22,7 @@
 
     color: var(---text-color-light, #FFFFFF);
     font-family: Cambria, Georgia, serif;
-    font-size: clamp(50px, 2.31vw + 32.3px, 60px);
+    font-size: clamp(50px, calc(2.31vw + 32.3px), 60px);
 
     white-space: nowrap;
 }

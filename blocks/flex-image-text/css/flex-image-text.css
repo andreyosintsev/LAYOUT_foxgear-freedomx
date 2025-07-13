@@ -22,7 +22,7 @@
  }
 
 .flex-image-text_reverse .flex-image-text__item:first-child {
-     order: 2;
+    order: 2;
 }
 
 .flex-image-text_reverse .flex-image-text__item:last-child {
