@@ -1,12 +1,7 @@
 <?php
-
-    //$site       = 'k2he.keychron-russia.ru';
-    //$from       = 'info@foxgamer.ru';
-    //$to         = 'info@foxgamer.ru';
-
     $site       = 'foxgear.store';
-    $from       = 'info@flexispot.ru';
-    $to         = 'kintaro_oe@inbox.ru';
+    $from       = 'info@foxgamer.ru';
+    $to         = 'info@foxgamer.ru';
 
     $name       = $_POST['name'];
     $tel        = $_POST['tel'];
