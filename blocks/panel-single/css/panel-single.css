@@ -1,0 +1,118 @@
+.panel-single {
+    display: block;
+    padding: 0;
+
+    color: var(--text-color-main, #000000);
+    font-family: var(--text-family-main, sans-serif);
+    font-size: var(--text-size-main, 14px);
+    font-weight: var(--text-weight-main, 400);
+
+    line-height: var(--text-line-height-specs, 22px);
+
+    background-color: var(--background-color-main, #FFFFFF);
+}
+
+.panel-single__description {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.panel-single__vendor {
+    margin-bottom: 5px;
+}
+
+.panel-single__title {
+    margin: 0 0 5px 0;
+
+    font-family: var(--text-family-title, sans-serif);
+    font-size: 25px;
+    font-weight: 500;
+
+    line-height: 30px;
+}
+
+.panel-single__subtitle {
+    margin-bottom: 6px;
+
+    font-size: var(--text-size-product, 16px);
+    font-weight: var(--text-weight-bold, 600);
+}
+
+.panel-single__rating {
+    margin-bottom: 10px;
+}
+
+.panel-single__price {
+    font-size: 24px;
+    font-weight: var(--text-weight-bold, 600);
+
+    line-height: 33px;
+}
+
+.panel-single__price_old {
+    font-size: 20px;
+    font-weight: var(--text-weight-main, 300);
+
+    text-decoration: line-through;
+}
+
+.panel__form {
+    margin-bottom: 35px;
+}
+
+.panel-single__features-header {
+    font-weight: var(--text-weight-bold, 700);
+}
+
+@media (max-width: 768px) {
+    .panel-single {
+        font-size: var(--text-size-single_mobile, 15px);
+    }
+
+    .panel-single__description {
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+    }
+
+    .panel-single__title {
+        margin: 20px 0 6px 0;
+
+        font-size: 26px;
+
+        line-height: 33px;
+    }
+
+    .panel-single__subtitle {
+        margin-bottom: 0px;
+
+        font-size: 16px;
+    }
+
+    .panel-single__price {
+        font-size: 17px;
+
+        line-height: 26px;
+    }
+
+    .panel-single__price_old {
+        font-size: 15px;
+    }
+
+    .panel-single__features-list {
+        padding-left: 30px;
+    }
+
+    .panel-single__feature {
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .panel-single__title {
+        margin: 10px 0 6px 0;
+
+        font-size: 20px;
+
+        line-height: 24px;
+    }
+}

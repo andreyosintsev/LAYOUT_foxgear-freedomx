@@ -1,0 +1,32 @@
+.benefits {
+    display: block;
+    padding: 0;
+    list-style: none;
+
+    color: var(--text-color-main, #000000);
+    font-family: var(--text-family-main, sans-serif);
+    font-size: var(--text-size-main, 14px);
+    font-weight: var(--text-weight-main, 400);
+
+    line-height: var(--text-line-height-large, 24px);
+
+    background-color: var(--background-color-main, #FFFFFF);
+}
+
+.benefits__benefit {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.benefits__image {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.benefits__image_warranty {
+    width: 28px;
+    height: 28px;
+}

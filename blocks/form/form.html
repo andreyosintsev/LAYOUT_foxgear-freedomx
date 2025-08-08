@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Block</title>
+    <link rel="stylesheet" href="../../css/common/normalize.css">
+    <link rel="stylesheet" href="../../css/common/consts.css">
+    <link rel="stylesheet" href="../benefits/css/benefits.css">
+    <link rel="stylesheet" href="../button/css/button.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body style="background-color: yellowgreen; padding: 10px;">
+    <form class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Переключатели</legend>
+            <div class="form__radio-button">
+                <input class="form__radio" 
+                        type="radio" 
+                        id="form__radio_coral" 
+                        name="switch"
+                        value="Magnetic Coral"
+                        checked>
+                <label class="form__label" for="form__radio_coral">Magnetic Coral</label>
+            </div>
+            <div class="form__radio-button">
+                <input class="form__radio" 
+                        type="radio" 
+                        id="form__radio_jade" 
+                        name="switch"
+                        value="Magnetic Jade Pro">
+                <label class="form__label" for="form__radio_jade">Magnetic Jade Pro</label>
+            </div>
+        </fieldset>
+        <ul class="benefits form__benefits">
+            <li class="benefits__benefit">
+                <img class="benefits__image benefits__image_warranty"
+                    src="../benefits/images/warranty.svg" 
+                    alt="Гарантия">
+                <div class="benefits__text">
+                    Гарантия 1 год
+                </div>
+            </li>
+            <li class="benefits__benefit">
+                <img class="benefits__image benefits__image_delivery"
+                    src="../benefits/images/earth.svg" 
+                    alt="Доставка">
+                <div class="benefits__text">
+                    Доставка по всей России
+                </div>
+            </li>
+        </ul>
+        <button class="button button_buy" type="button">КУПИТЬ</button>
+    </form>    
+</body>
+</html>

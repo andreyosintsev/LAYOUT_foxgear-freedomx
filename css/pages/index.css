@@ -47,6 +47,11 @@ body {
     padding-top: 50px;
 }
 
+.main__wrapper {
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
 .one-chair__symbol {
     display: block;
 }
@@ -141,6 +146,12 @@ body {
     margin-top: 40px;
 }
 
+@media screen and (max-width: 1600px) {
+    .wrapper-1600 {
+        padding: 40px 40px;
+    }
+}
+
 @media (max-width: 1440px) {
     .new-favorite {
         margin: 0 auto 0;
@@ -166,6 +177,10 @@ body {
     .wrapper_created-for {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+
+    .main__wrapper {
+        padding: 20px 14px;
     }
 
     .section-title_created-for {

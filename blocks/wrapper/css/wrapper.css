@@ -5,12 +5,35 @@
     padding: 0 15px;
 }
 
+.wrapper-1600 {
+    width: 100%;
+    max-width: var(--header-width, 1600px);
+    padding: 0;
+}
+
+@media screen and (max-width: 1600px) {
+    .wrapper-1600 {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .wrapper-1600 {
+        padding: 0 20px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .wrapper {
         max-width: 768px;
         margin: 0;
         padding-left: clamp(15px, calc(38.583vw - 231.93px), 64px);
         padding-right: clamp(15px, calc(38.583vw - 231.93px), 64px);
+    }
+
+    .wrapper-1600 {
+        padding: 0 14px 0;
+        margin-bottom: 40px;
     }
 }
 

@@ -1,0 +1,31 @@
+.rating {
+    display: flex;
+
+    color: var(--text-color-main, #000000);
+    font-family: var(--text-family-main, sans-serif);
+    font-size: var(--text-size-main, 14px);
+    font-weight: var(--text-weight-main, 400);
+
+    line-height: 16px;
+}
+
+.rating__stars {
+    margin-right: 8px;
+
+    white-space: nowrap;
+}
+
+.rating__star {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    
+    background-image: url("../images/star.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14px;
+}
+
+.rating__star_blank {
+    background-image: url("../images/star-blank.svg");
+}
