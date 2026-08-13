@@ -21,8 +21,8 @@
 
 .footer__menu {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "menu1 menu2 contacts";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "menu1 menu2 menu3 contacts";
     justify-content: center;
 }
 
@@ -39,6 +39,11 @@
 .footer__menu-column:nth-child(2) {
     grid-area: menu2;
 }
+
+.footer__menu-column:nth-child(3) {
+    grid-area: menu3;
+}
+
 
 .footer__menu-contacts {
     grid-area: contacts;
@@ -80,7 +85,7 @@
 @media (max-width: 560px) {
     .footer__menu {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: "menu1 menu2" "contacts contacts";
+        grid-template-areas: "menu1 menu2" "menu3 contacts";
     }
 
     .footer__menu-column {
@@ -89,7 +94,6 @@
     }
 
     .footer__menu-contacts {
-        grid-column: span 2;
         margin-bottom: 30px;
         justify-self: auto;
     }

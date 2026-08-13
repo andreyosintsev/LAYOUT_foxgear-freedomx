@@ -19,13 +19,13 @@
     display: inline-block;
     width: 14px;
     height: 14px;
-    
-    background-image: url("../images/star.svg");
+
+    background-image: url("../../../images/rating/star.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 14px;
 }
 
 .rating__star_blank {
-    background-image: url("../images/star-blank.svg");
+    background-image: url("../../../images/rating/star-blank.svg");
 }
